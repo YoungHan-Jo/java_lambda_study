@@ -19,7 +19,7 @@ public class Chap31Ex1 {
 
         System.out.println();
 
-        fileStream = Stream.of(fileArr);
+        fileStream = Stream.of(fileArr); 
 
         fileStream.map(i -> i.getName())
                 .filter(s -> s.indexOf(".") > 0)
